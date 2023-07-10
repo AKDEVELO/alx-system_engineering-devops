@@ -1,0 +1,27 @@
+root@b01f7f30e697:~/alx-system_engineering-devops/0x02-shell_redirections# vim 5-firstlines 
+root@b01f7f30e697:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 5-firstlines 
+root@b01f7f30e697:~/alx-system_engineering-devops/0x02-shell_redirections# ./5-firstlines 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+root@b01f7f30e697:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@b01f7f30e697:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m " I'd prefer the first ones actually"
+[master 460e5c0]  I'd prefer the first ones actually
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ mode change 100644 => 100755 0x02-shell_redirections/5-firstlines
+root@b01f7f30e697:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AKDEVELO/alx-system_engineering-devops.git
